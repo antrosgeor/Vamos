@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- English -->
+
+    <!-- string -->
+    <string name="app_name">Vamos</string>
+    <string name="app_image">app image</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="First_Name">First Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="Username">User Name</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Re_Password">RePassword</string>
+    <string name="Sex">Sex</string>
+    <string name="Age">Your Age</string>
+    <string name="Family">Family</string>
+    <string name="job">Your Job</string>
+    <string name="Money">Salary</string>
+    <string name="Edit_Text"></string>
+    <string name="Surname"><b>Surname</b></string>
+    <string name="Address"><b>Address</b></string>
+    <string name="Post_Code"><b>Post Code</b></string>
+    <string name="Gender"><b>Gender </b></string>
+    <string name="Affiliation"><b>Affiliation </b></string>
+    <string name="Cancel"><b>Cancel</b></string>
+    <string name="Reset"><b>Reset</b></string>
+    <string name="Back">Back</string>
+    <string name="Next"><b>Next</b></string>
+    <string name="Exit"> Exit </string>
+    <string name="log_out">Log out</string>
+    <string name="Update">Update</string>
+    <string name="test_again">Test Again \u0020 </string>
+    <string name="User_Page">User Page \u0020</string>
+    <string name="Second_Page"><b>Second_Page</b></string>
+    <string name="Switch_Back"><b>Switch Back to Activity 1</b></string>
+    <string name="welcome">\u0020\u0020 Welcome \u0020\u0020\u0020\u0020</string>
+    <string name="go_to_test">Go to test</string>
+    <string name="Show_last_test">Show last test</string>
+    <string name="Change_The_Data">Change The Data</string>
+    <string name="ok_install_data">OK Install to Data</string>
+    <string name="delete">Delete user</string>
+    <string name="show_db">show db</string>
+    <string name="finish">Finish</string>
+    <string name="viewAll">View All</string>
+    <string name="ok">OK</string>
+    <string name="ok_update">OK Update</string>
+    <string name="welcome_list"> Please fill in the following information to complete your writting</string>
+    <string name="welcome_show"> Υour check through the data before REGISTRATION</string>
+    <string name="install_data">install data</string>
+    <string name="text1">text 1</string>
+    <string name="welcome_Update">Enter the data you want to change</string>
+    <string name="Delete_Test">Delete Test</string>
+    <string name="dont">Not Found Any Saved Test</string>
+
+    <!-- Error -->
+    <string name="Error_Pass_rePass"> the Password is not the same as the Re-Password</string>
+    <string name="Error_Empty_First_Name">Error the First Name is Empty</string>
+    <string name="Error_Empty_Last_Name">Error the Last Name is Empty</string>
+    <string name="Error_Empty_Username">Error the Username is Empty</string>
+    <string name="Error_Empty_Password">Error the Password is Empty</string>
+    <string name="Error_Empty_Re_Password">Error the Re-Password is Empty</string>
+    <string name="Error_Empty_Email">Error the Email is Empty</string>
+    <string name="Error_Empty_Age">The Age is Empty</string>
+    <string name="Error_Empty_job">The Job is Empty</string>
+    <string name="Error_Empty_Money">The Money is Empty</string>
+    <string name="Error_Empty_Sex">The Sex is Empty</string>
+    <string name="Error_Empty_Family">The Family is Empty</string>
+    <string name="Error_Email">The Email is Error..</string>
+    <string name="error_install">Error.. Not Install User</string>
+
+    <!-- Radio - Check  Box -->
+    <string name="RadioButtonMale">Male</string>
+    <string name="RadioButtonFemale">Female</string>
+    <string name="familyYes">Family Yes</string>
+    <string name="familyNo">Family No</string>
+    <string name="A"><b> A </b></string>
+    <string name="B"><b> B </b></string>
+    <string name="C"><b> C </b></string>
+    <string name="D"><b> D </b></string>
+    <string name="Check_A">Check A is selected</string>
+    <string name="Check_B">Check B is selected</string>
+    <string name="Check_C">Check C is selected</string>
+    <string name="Check_D">Check D is selected</string>
+   
+    
+    <!-- lan -->
+    <string name="en">English</string>
+    <string name="gr">Greece</string>
+
+    <!-- color -->
+    <color name="white">#FFFFFF</color>
+    <color name="green">#419BB5</color>
+    <color name="whiles">#FFFFFF</color>
+    <color name="title">#626262</color>
+    <color name="blacks">#274647</color>
+    <color name="transparent">#66C4CBCF</color>
+    <color name="transparent1">#26C4CBCF</color>
+    
+    <string name="Enter_your_FName">\u0020\u0020Enter your First Name</string>
+    <string name="Enter_your_LName">\u0020\u0020Enter your Last Name</string>
+    <string name="Enter_your_UName">\u0020\u0020Enter your UserName</string>
+    <string name="Enter_your_Password">\u0020\u0020Enter your Password</string>
+    <string name="Enter_your_RPassword">\u0020\u0020Enter your RePassword</string>
+    <string name="Enter_your_Email">\u0020\u0020Enter your Email</string>
+    <string name="Enter_your_Age">\u0020\u0020Enter your Age</string>
+    <string name="Enter_your_Job">\u0020\u0020Enter your Job</string>
+    <string name="Enter_your_Money">\u0020\u0020Enter your Money</string>
+    
+    
+
+    <string name="log_in"> Log In </string>
+    <string name="Email_example"> email@example.com </string>
+    <string name="pass"> password </string>
+    <string name="sing_up"> sigη up </string>
+
+    <!-- title_activity -->
+    <string name="title_activity_list_user">List user</string>
+    <string name="title_activity_list2_user">List2 user</string>
+    <string name="title_activity_login_user">Login user</string>
+    <string name="title_activity_help1">Help </string>
+    <string name="title_activity_show_before_install">Show before install</string>
+    <string name="title_activity_update_user">Update user</string>
+    <string name="title_activity_test1">Test</string>
+    <string name="title_activity_show__answer">Show Answer</string>
+    <string name="title_activity_show_before_test">Show before test</string>
+    <string name="descriptionimage">description image for Vamos</string>
+
+    <!-- prologos Before_Test -->
+    <string name="Before_Test1">        Mountain or sea? Greece or abroad? Partying or Extreme sports; With your mates or new friends?
+Many dilemmas, but even more options for your vacation. It is time to decide the destination of your journey after the necessary negotiations and chaotic counterproposals from friends or your own?
+We remove from the predicament and within eight questions limit your choices to the most suitable to match what you have in your mind.
+</string>
+    <string name="Before_Test2">        Mountain or sea? Aegean or Ionianor? Greece or abroad? Family fun or calm? With your other half or with your friends?
+        Many dilemmas, but even more options for your summer holidays. Approximately such a time, moreover, there is always this talk with your partner at home, to decide the destination of the journey after the necessary negotiations.
+         We remove from the predicament and within eight questions limit your choices to the most suitable to match what you have in mind as an ideal holiday.
+</string>
+<string name="Before_Test3">        Mountain or sea? Aegean or Ionianor? In town or village? Family fun or calm? With your partner or with your friends? 
+        Many dilemmas, but even more options for your summer holidays. We remove from the predicament and within eight questions limit your choices to the most suitable to match what you have in your mind as "perfect holiday."
+</string>
+
+    <!-- questions -->
+    <string name="question1"> 1. Which of the following pictures are closer to what comes to your mind when you hear "summer vacation" ? </string>
+    <string name="question2"> 2. Who will be going on holiday ?   </string>
+    <string name="question3"> 3. What means of transport do you prefer ?  </string>
+    <string name="question4"> 4. For swimming you can choose ?  </string>
+    <string name="question5"> 5. Where do you prefer to stay overnight ?  </string>
+    <string name="question6"> 6. What gadgets will not be missing from your luggage ? </string>
+    <string name="question7"> 7. After the holiday, the profile picture on Facebook will be ?  </string>
+    <string name="question8"> 8. When would prefer to go on holiday ?  </string>
+
+    <!-- answers Neos -->
+    <string name="answer1aN"> 1.A. \n Beach bar, dance till morning and flirting on the beach  </string>
+    <string name="answer1bN"> 1.B. \n Cool breeze, in a picturesque place </string>
+    <string name="answer1cN"> 1.C. \n Day and night to the secluded beach all day with only a bathing suit, or without it </string>
+    <string name="answer1dN"> 1.D. \n Far be yes, and where to be </string>
+    <string name="answer2aN"> 2.A. \n With his or her buddy or it happens to be like you, single </string>
+    <string name="answer2bN"> 2.B. \n With his or her buddy or you happen to have a partner and children  </string>
+    <string name="answer2cN"> 2.C. \n With some friends, and some friends of friends, maybe some friends of friends of friends  </string>
+    <string name="answer2dN"> 2.D. \n With your close friends </string>
+    <string name="answer3aN"> 3.A. \n Speed ferry forever! </string>
+    <string name="answer3bN"> 3.B. \n As the independence and security of your car does not have  </string>
+    <string name="answer3cN"> 3.C. \n And with boat go as long as you leave the city  </string>
+    <string name="answer3dN"> 3.D. \n Plane or train  </string>
+    <string name="answer4aN"> 4.A. \n Measurement Understood organized beach with nice music  </string>
+    <string name="answer4bN"> 4.B. \n Shallow sand - do not know good swimming  </string>
+    <string name="answer4cN"> 4.C. \n Free beach, preferably deserted and unknown to the crowds  </string>
+    <string name="answer4dN"> 4.D. \n Well, if you do not pop bathroom very </string>
+    <string name="answer5aN"> 5.A. \n In a hotel  </string>
+    <string name="answer5bN"> 5.B. \n In apartment equipped Barbecue </string>
+    <string name="answer5cN"> 5.C. \n In your tent on a beach </string>
+    <string name="answer5dN"> 5.D. \n In hostel or member couch AirBNB  </string>
+    <string name="answer6aN"> 6.A. \n Smartphone, tablet, laptop, Phone hub and portable icheiakia </string>
+    <string name="answer6bN"> 6.B. \n The snake mosquito </string>
+    <string name="answer6cN"> 6.C. \n At most a cell, and this closed  </string>
+    <string name="answer6dN"> 6.D. \n Smartphone With good camera or, even better, SLR camera  </string>
+    <string name="answer7aN"> 7.A. \n You with perfect tan and your hip swimwear and racket</string>
+    <string name="answer7bN"> 7.B. \n A nice landscape of the most picturesque hamlet visited the island </string>
+    <string name="answer7cN"> 7.C. \n A piece of sandy beach or a detail from your favorite beach without showing your face  </string>
+    <string name="answer7dN"> 7.D. \n The panorama of a city or a world-renowned attraction  </string>
+    <string name="answer8aN"> 8.A. \n In August </string>
+    <string name="answer8bN"> 8.B. \n On July </string>
+    <string name="answer8cN"> 8.C. \n In July or September </string>
+    <string name="answer8dN"> 8.D. \n You have no particular preference, whenever you find cheaper ticket  </string>
+
+    <!-- answers Pantremenou -->
+    <string name="answer1aP"> 1.A. \n Dancing, good food and relaxing on the beach  </string>
+    <string name="answer1bP"> 1.B. \n Cool breeze under a tree hug to your mate in a picturesque hamlet </string>
+    <string name="answer1cP"> 1.C. \n Day and night on a secluded beach all day with your other half </string>
+    <string name="answer1dP"> 1.D  \n Far be yes, and where to be </string>
+    <string name="answer2aP"> 2.A. \n With his or her partner ONLY  </string>
+    <string name="answer2bP"> 2.B. \n With his or her partner and children </string>
+    <string name="answer2cP"> 2.C. \n With some friends  </string>
+    <string name="answer2dP"> 2.D. \n With your close friends  </string>
+    <string name="answer3aP"> 3.A. \n Speed ferry forever! </string>
+    <string name="answer3bP"> 3.B. \n As the independence and security of your car does not have </string>
+    <string name="answer3cP"> 3.C. \n And with boat go as long as you leave the city </string>
+    <string name="answer3dP"> 3.D. \n Plane or train  </string>
+    <string name="answer4aP"> 4.A. \n Measurement Understood organized beach with sun beds, umbrellas and nice music  </string>
+    <string name="answer4bP"> 4.B. \n Shallow sandy beach - children do not even know a good swimmer </string>
+    <string name="answer4cP"> 4.C. \n Free beach, preferably deserted </string>
+    <string name="answer4dP"> 4.D. \n Well, if you do not pop bathroom very  </string>
+    <string name="answer5aP"> 5.A. \n In a hotel  </string>
+    <string name="answer5bP"> 5.B. \n In apartment with equipped kitchen  </string>
+    <string name="answer5cP"> 5.C. \n In your tent on a beach - than in bed, if you find something very economical  </string>
+    <string name="answer5dP"> 5.D. \n In hostel or member couch AirBNB  </string>
+    <string name="answer6aP"> 6.A. \n Smartphone, tablet, laptop, Phone hub and portable icheiakia  </string>
+    <string name="answer6bP"> 6.B. \n The snake mosquito  </string>
+    <string name="answer6cP"> 6.C. \n At most a cell, and this closed  </string>
+    <string name="answer6dP"> 6.D. \n Smartphone With good camera or, even better, SLR camera </string>
+    <string name="answer7aP"> 7.A. \n You with your perfect tan form "heart" with your fingers on the seafront </string>
+    <string name="answer7bP"> 7.B. \n A nice landscape of the most picturesque hamlet visited the island  </string>
+    <string name="answer7cP"> 7.C. \n A piece of sandy beach or a detail from your favorite beach without showing your face </string>
+    <string name="answer7dP"> 7.D. \n The panorama of a city or a world-renowned attraction  </string>
+    <string name="answer8aP"> 8.A. \n In August  </string>
+    <string name="answer8bP"> 8.B. \n On July  </string>
+    <string name="answer8cP"> 8.C. \n In July or September  </string>
+    <string name="answer8dP"> 8.D. \n You have no particular preference, whenever you find cheaper ticket  </string>
+
+    <!-- answers Gerou -->
+    <string name="answer1aG"> 1.A. \n Good food and relaxing on the beach  </string>
+    <string name="answer1bG"> 1.B. \n Cool breeze under a picturesque hamlet  </string>
+    <string name="answer1cG"> 1.C. \n Day and night a secluded beach  </string>
+    <string name="answer1dG"> 1.D. \n Far be yes, and where to be  </string>
+    <string name="answer2aG"> 2.A. \n With his or her partner ONLY  </string>
+    <string name="answer2bG"> 2.B. \n With his or her partner, children and grandchildren  </string>
+    <string name="answer2cG"> 2.C. \n With some friends </string>
+    <string name="answer2dG"> 2.D. \n With your friends </string>
+    <string name="answer3aG"> 3.A. \n Speed ferry forever! </string>
+    <string name="answer3bG"> 3.B. \n As the independence and security of your car does not have </string>
+    <string name="answer3cG"> 3.C. \n And with boat go as long as you leave the city  </string>
+    <string name="answer3dG"> 3.D. \n Plane or train  </string>
+    <string name="answer4aG"> 4.A. \n Measurement Understood organized beach with sunbeds  </string>
+    <string name="answer4bG"> 4.B. \n Shallow sand - grandchildren do not even know a good swimmer  </string>
+    <string name="answer4cG"> 4.C. \n Free beach, preferably deserted </string>
+    <string name="answer4dG"> 4.D. \n Well, if you do not pop bathroom very  </string>
+    <string name="answer5aG"> 5.A. \n In a hotel  </string>
+    <string name="answer5bG"> 5.B. \n In apartment with equipped kitchen  </string>
+    <string name="answer5cG"> 5.C. \n In bed, if you find something very economical  </string>
+    <string name="answer5dG"> 5.D. \n in hostel </string>
+    <string name="answer6aG"> 6.A. \n Smartphone mobile, and portable speakers and radio  </string>
+    <string name="answer6bG"> 6.B. \n The snake mosquito  </string>
+    <string name="answer6cG"> 6.C. \n At most a cell, and this closed  </string>
+    <string name="answer6dG"> 6.D. \n SLR camera  </string>
+    <string name="answer7aG"> 7.A. \n You seafront </string>
+    <string name="answer7bG"> 7.B. \n A nice landscape of the most picturesque village visiting the island / in your holiday destination </string>
+    <string name="answer7cG"> 7.C. \n A piece of sandy beach or a detail from your favorite beach without showing your face </string>
+    <string name="answer7dG"> 7.D. \n The panorama of a city or a world-renowned attraction  </string>
+    <string name="answer8aG"> 8.A. \n In August  </string>
+    <string name="answer8bG"> 8.B. \n On July  </string>
+    <string name="answer8cG"> 8.C. \n In July or September  </string>
+    <string name="answer8dG"> 8.D. \n You have no particular preference, whenever you find cheaper ticket  </string>
+ 
+    <!-- Answer Title -->
+
+    <string name="answerATitle"><b> You fit for the party islands : </b></string>
+    <string name="answerBTitle"><b> Family vacations : </b></string>
+    <string name="answerCTitle"><b> Alternative destinations : </b></string>
+    <string name="answerDTitle"><b> The unconventional journey : </b></string>
+
+    <!-- Answer Neos -->
+    <string name="answerAN">    Are you ready to have fun and all-night partying on the most popular islands. For you and your friends, means no holidays sunbathing on saizlongk dancing at beach bars, nailed headphones in ears, tags and check ins the most sought after bars of the island and accommodation facilities. 		</string>
+    <string name="answerBN">    Whether you want it or not, summer with family entails some «standards», ie security, tranquility
+          If you answered the "cool breeze, in a picturesque place," the solution is one: Vouros for the mountain. The mountain destinations, the charm of a village, the "traditional" quiet and calm rhythms will please you. Otherwise, if you prefer the sea, surely fit on large islands, featuring services such as hospital pharmacies, frequent etc., giving you peace of mind for everything.
+		</string>
+    <string name="answerCN">    Are you  wait patiently all winter with your clothes, to throw them in the summer and stay at least one week with your bathing suit, get close to nature, to visit the small islands that feel more like your second home, find the quiet beach where you set up your tent, the same familiar faces. Like talking to locals, discovering the natural beauty of the island and not having you for a moment what is happening back at home
+    	</string>
+    <string name="answerDN">    Are you  have rather different idea than the average traveler for the concept of summer vacation. For you, even in summer is an opportunity to experience new cultures and other cultures, even if it means that you will deprive yourself of your dives in Greek seas - will arrange up for me the next weekend getaways. For the "main course", however, you prefer to book airline tickets or meet Europe the rails.
+    	</string>
+
+    <!-- Answer Pantremenou-Gerou -->
+    <string name="answerAP">    Are you ready for all-night partying on the most popular islands leaving behind the daily routine of the family. For you, your family and your friends are not considered vacation without sunbathing, stay with comfort and dance to good music in the most sought after places on the island.
+        </string>
+    <string name="answerBP">    Whether you want it or not, summer with family entails some «standards», ie security, tranquility and relative removal of tastes that you had before "married". From a solution is the mountain. The mountain destinations, the charm of a village, the "traditional" quiet and calm rhythms will please you. Otherwise, if you prefer the sea, surely fit on large islands, featuring services such as hospital pharmacies, frequent, giving you peace of mind for everything.
+        </string>
+    <string name="answerCP">    Are you wait patiently all winter with your clothes to stay at least one week with your bathing suit, get close to nature, to visit the small islands that feel more like your second home, since the visit by way of pilgrimage, and find the quiet beach where you set up your tent, the same familiar faces. Like talking to locals, discovering the natural beauty of the island.
+        </string>
+    <string name="answerDP">    Are you  have rather different idea than the average Greek traveler on the concept of summer vacation. For you, even in summer is an opportunity to experience new cultures and other cultures, even if it means that you will deprive yourself of your dives in Greek seas. prefer to book airline tickets or to experience Europe.
+        </string>
+
+    <!-- Answer  go yes -->
+    <string name="answerAgoM"><b>Where to go: </b>\n 		<u> Mykonos </u> and <u> Santorini </u> is confident choices while away from the Cyclades, will not disappoint the <u> Rhodes </u>.
+    	</string>
+    
+    <string name="answerBgoM"><b>Where to go: </b>\n
+       The <u> Skiathos </u> and <u> Crete </u>, very good island choices for you, while the <u> Chalkidiki </u> is not at all a bad idea if you prefer the &lt; landlubber &gt; seas. If you prefer mountain, <u> Pelion </u> is the golden mean, which combines mountain holiday with beautiful beaches within striking distance. For more mountainous moods recommend with closed eyes <u> Zagoria </u>.
+   		</string>
+    
+    <string name="answerCgoM"><b>Where to go: </b>\n
+       The <u> Koufonisia </u> &lt; extra points for the free camping and naturism Kato Koufonisi &gt; or &lt; Small Cyclades &gt; generally &lt; <u> Iraklia </u>, <u> Donoussa </u> &gt;, in <u> Agistri </u>, the <u> Kalamos </u> &lt; a tiny island of the Ionian &gt; in <u> Gavdos </u> &lt; a greater peace than knowing that you are at the southernmost tip of Europe &gt;, the <u> Ikaria </u>, <u> Serifos </u>, <u> Folegandros </u>, <u> Kastelorizo </u>, <u> Astypalea </u> 
+    	</string>
+    <string name="answerDgoM"><b>Where to go: </b>\n
+       We can "mitigate" summer loss, choosing foreign destinations that are near the sea. How about the <u> Barcelona </u>, the <u> Asia Minor </u> or the <u> Marseille </u>, <u> Monaco </u> 
+       	</string>
+    <!-- Answer go no -->
+    <string name="answerAgoA"><b>Where to go: </b>\n     		<u> Chios </u> and <u> Paros </u> is confident choices while away from the Cyclades, will not disappoint the <u> Lefkada </u>.  
+ 		</string>
+    <string name="answerBgoA"><b>Where to go: </b>\n  
+       The <u> Skopelos </u>, or <u> Naxos </u> and <u> Kefalonia </u> are very good island choices for you, while the <u> Chalkidiki </u> not at all bad idea if you prefer the "mainland" seas. For more "mountain moods", recommend with closed eyes <u> Tzoumerka </u> and <u> Olympus </u>.
+       	</string>
+    <string name="answerCgoA"><b>Where to go: </b>\n 
+       The <u> Koufonisia </u> &lt; extra points for the free camping and naturism Kato Koufonisi &gt; or &lt; Small Cyclades &gt; generally &lt; <u> Donoussa </u>, <u> Schinousa </u> &gt;, the <u> Anafi </u>, &lt; the tiny island of the Ionian &gt;, the <u> Gavdos </u> &lt; a greater peace than knowing that you are at the southernmost tip of Europe &gt;, in <u> Samothrace </u>,
+    	</string>
+    <string name="answerDgoA"><b>Where to go: </b>\n  
+        We can "mitigate" summer loss, choosing foreign destinations that are near the sea. How about the <u> Lisbon </u>, the <u> Asia Minor </u> or African coasts <u> Mediterranean </u>.
+    	</string>
+    <string name="title_activity_last_test">Last Test</string>
+    
+    
+    
+    <string name="last_test">Last Test </string>
+    <string name="changed">Τhe data have changed GO TO TEST</string>
+    <string name="not">Not found Last Test</string>
+    <string name="nodelete">Data not Delete</string>
+    <string name="delet">Data is Delete</string>
+    <string name="Log_Out">Log Out</string>
+    <string name="oklogin"> Login success &#8230; \n\n Welcome </string>
+    <string name="notlogin"> Login Failed </string>
+    <string name="Data_not_Inserted">Data not Inserted</string>
+    <string name="Dear">Dear </string>
+    <string name="DatanotUpdate">Data not Update</string>
+    <string name="DataisUpDate">Data is Update</string>
+    <string name="Delete_user">Delete user!!</string>    
+    <string name="Do_you_want_to_Delete">Do you want to Delete the User Pages ?</string>
+    <string name="Yes">Yes</string>
+ 	<string name="No">No</string>
+ 	<string name="Alert">Alert !!!</string>
+
+</resources>

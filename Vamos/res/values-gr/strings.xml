@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- string -->
+    <string name="app_name">Vamos</string>
+    <string name="app_image">app image</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="First_Name">Όνομα</string>
+    <string name="Last_Name">Επίθετο</string>
+    <string name="Username">Όνομα χρήστη</string>
+    <string name="Email"> Email</string>
+    <string name="Password"> Κωδικός</string>
+    <string name="Re_Password"> Επανάληψη Κωδικού</string>
+    <string name="Sex"> Φύλο</string>
+    <string name="Age"> Ηλικία</string>
+    <string name="Family">Οικογενειακή κατάσταση</string>
+    <string name="job"> Επάγγελμα</string>
+    <string name="Money"> Μισθός </string>
+    <string name="Edit_Text"></string>
+    <string name="Surname"><b> Επώνυμο</b></string>
+    <string name="Address"><b> Διεύθυνση</b></string>
+    <string name="Post_Code"><b> Ταχυδρομικός τομέας</b></string>
+    <string name="Gender"><b> Γένος </b></string>
+    <string name="Affiliation"><b> Δεσμός </b></string>
+    <string name="Cancel"><b>Ακυρωση</b></string>
+    <string name="Reset"><b>Επαναφορα</b></string>
+    <string name="Back">Πισω</string>
+    <string name="Next"><b>Επομενο</b></string>
+    <string name="Exit"> Εξοδος </string>
+    <string name="log_out"> Αποσυνδεση</string>
+    <string name="Update"> Ενημερωση</string>
+    <string name="test_again"> Δοκιμη Ξανα \u0020 </string>
+    <string name="User_Page"> Σελιδα χρηστη \u0020 </string>
+    <string name="Second_Page"><b> Δεύτερη Σελίδα</b></string>
+    <string name="Switch_Back"><b> Εναλλαγή Επιστροφή στην Δράση 1</b></string>
+    <string name="welcome">\u0020\u0020 Καλώς ορίσατε &#8230; \u0020\u0020</string>
+    <string name="go_to_test">Πηγαινετε στο test</string>
+    <string name="Show_last_test">Εμφανιση του τελευταιου Test</string>
+    <string name="Change_The_Data">Αλλαξτε τα δεδομενα σας</string>
+    <string name="ok_install_data">OK Εγκατάσταση Δεδομένων</string>
+    <string name="delete">Διαγραφη χρηστη</string>
+    <string name="show_db">Εμφανιση DB</string>
+    <string name="viewAll">Δειτε ολα τα δεδομενα</string>
+    <string name="ok">OK</string>
+    <string name="finish">Τελος</string>
+    <string name="ok_update">OK Ενημέρωση</string>
+    <string name="welcome_list"> Παρακαλώ συμπληρώστε τα παρακάτω στοιχεία για να ολοκληρώσετε την γραφή σας</string>
+    <string name="welcome_show">Ελέγξετε τα στοιχεία σας πριν από την καταχώρηση</string>
+    <string name="install_data">Εγκατασταση Δεδομενων</string>
+    <string name="text1">Κειμένου 1</string>
+    <string name="welcome_Update">Πληκτρολογήστε τα δεδομένα που θέλετε να αλλάξετε</string>
+    <string name="Delete_Test">Διαγραφη Test</string>
+
+    <!-- Error -->
+    <string name="Error_Pass_rePass"> Ο κωδικός πρόσβασης δεν είναι το ίδιο με το Re-Κωδικός</string>
+    <string name="Error_Empty_First_Name">Σφάλμα Το όνομα είναι άδειο</string>
+    <string name="Error_Empty_Last_Name">Σφάλμα Το Επώνυμο είναι άδειο</string>
+    <string name="Error_Empty_Username">Σφάλμα το Όνομα Χρήστη είναι άδειο</string>
+    <string name="Error_Empty_Password">Σφάλμα ο κωδικός είναι κενός</string>
+    <string name="Error_Empty_Re_Password">Σφάλμα το Re-κωδικός είναι κενός</string>
+    <string name="Error_Empty_Email">Σφάλμα το Email είναι άδειο</string>
+    <string name="Error_Empty_Age">Η Ηλικία είναι άδειο</string>
+    <string name="Error_Empty_job">Το Επάγγελμα είναι άδειο</string>
+    <string name="Error_Empty_Money">Ο Μισθός είναι άδειο</string>
+    <string name="Error_Empty_Sex">Το Φύλο είναι άδειο</string>
+    <string name="Error_Empty_Family">Η οικογενειακή κατάσταση είναι άδεια</string>
+    <string name="Error_Email">Το email έχει σφάλμα.. </string>
+    <string name="error_install">Σφάλμα .. Δεν εχει πραγματοποιηθεί η Εγκατάσταση του χρήστη</string>
+
+    <!-- Radio - Check  Box Δεσμευμενος, Ελευθερος-->
+    <string name="RadioButtonMale">Αντρας</string>
+    <string name="RadioButtonFemale">Γυναίκα</string>
+    <string name="familyYes">Δεσμευμενος</string>
+    <string name="familyNo">Ελευθερος</string>
+    <string name="A"><b> Α </b></string>
+    <string name="B"><b> Β </b></string>
+    <string name="C"><b> Γ </b></string>
+    <string name="D"><b> Δ </b></string>
+    <string name="Check_A">Check A εχει επιλεχθεί</string>
+    <string name="Check_B">Check B εχει επιλεχθεί</string>
+    <string name="Check_C">Check C εχει επιλεχθεί</string>
+    <string name="Check_D">Check D εχει επιλεχθεί</string>
+    
+    <!-- lan -->
+    <string name="en">Αγγλικα</string>
+    <string name="gr">Ελληνικα</string>
+
+    <!-- color -->
+    <color name="white">#FFFFFF</color>
+    <color name="green">#419BB5</color>
+    <color name="whiles">#FFFFFF</color>
+    <color name="title">#626262</color>
+    <color name="blacks">#274647</color>
+    <color name="transparent">#66C4CBCF</color>
+    <color name="transparent1">#26C4CBCF</color>
+    
+    <string name="Enter_your_FName">\u0020\u0020Πληκτρολογήστε το Όνομά σας</string>
+    <string name="Enter_your_LName">\u0020\u0020Το Επώνυμο σας</string>
+    <string name="Enter_your_UName">\u0020\u0020Πληκτρολογήστε το Όνομα Χρήστη</string>
+    <string name="Enter_your_Password">\u0020\u0020Εισάγετε τον κωδικό σας</string>
+    <string name="Enter_your_RPassword">\u0020\u0020Εισάγετε Re-κωδικό σας</string>
+    <string name="Enter_your_Email">\u0020\u0020Συμπληρώστε το email σας</string>
+    <string name="Enter_your_Age">\u0020\u0020Εισάγετε την ηλικία σας</string>
+    <string name="Enter_your_Job">\u0020\u0020Εισάγετε την Εργασίας σας</string>
+    <string name="Enter_your_Money">\u0020\u0020Εισάγετε των μισθό σας</string>
+    
+    
+
+    <string name="log_in"> Συνδεση </string>
+    <string name="Email_example"> email@example.com </string>
+    <string name="pass"> Κωδικό </string>
+    <string name="sing_up"> Εγγραφη </string>
+
+    <!-- title_activity -->
+    <string name="title_activity_list_user">Λίστα χρηστών</string>
+    <string name="title_activity_list2_user">Λίστα2 χρηστών</string>
+    <string name="title_activity_login_user">Σύνδεση χρηστών</string>
+    <string name="title_activity_help1">Help1</string>
+    <string name="title_activity_show_before_install">Εμφάνιση Πριν από την εγκατάσταση</string>
+    <string name="title_activity_update_user">Ενημέρωση των χρηστών</string>
+    <string name="title_activity_test1">Δοκιμή1</string>
+    <string name="title_activity_show__answer">Δείξε την απάντηση</string>
+    <string name="title_activity_show_before_test">Εμφάνιση πριν από τη δοκιμή</string>
+    <string name="descriptionimage">Περιγραφή εικόνας για Vamos</string>
+
+    <!-- prologos Before_Test -->
+    <string name="Before_Test1">        Βουνό ή θάλασσα; Ελλάδα ή εξωτερικό; Ξεφάντωμα ή για Extreme sports; Με τους κολλητούς σας ή με καινούργια παρέα; 
+        Πολλά τα διλήμματα, αλλά ακόμη περισσότερες οι επιλογές σας για τις διακοπές. Είναι  καιρός να αποφασίσετε τον προορισμό του ταξιδιού σας μετά από τις απαραίτητες διαπραγματεύσεις και τις χαοτικές αντιπροτάσεις από τους φίλους ή τους δικούς σας; 
+        Εμείς σας βγάζουμε από τη δύσκολη θέση και μέσα από οκτώ ερωτήσεις περιορίζουμε τις επιλογές σας στις πιο ταιριαστές σε αυτό που έχετε στο μυαλό σας.
+</string>
+    <string name="Before_Test2">        Βουνό ή θάλασσα; Αιγαίο ή Ιόνιο; Ελλάδα ή εξωτερικό; Οικογενειακή διασκέδαση ή ηρεμία; Με το άλλο σας μισό ή και με την παρέα σας; 
+        Πολλά τα διλήμματα, αλλά ακόμη περισσότερες οι επιλογές σας για τις καλοκαιρινές διακοπές. Περίπου τέτοιο καιρό, άλλωστε, δεν γίνεται πάντα αυτή η συζήτηση με την σύντροφό σας στο σπίτι, για να αποφασιστεί ο προορισμός του ταξιδιού μετά από τις απαραίτητες διαπραγματεύσεις.
+         Εμείς σας βγάζουμε από τη δύσκολη θέση και μέσα από οκτώ ερωτήσεις περιορίζουμε τις επιλογές σας στις πιο ταιριαστές σε αυτό που έχετε στο μυαλό σας ως ιδανικές διακοπές. 
+</string>
+    <string name="Before_Test3">        Βουνό ή θάλασσα; Αιγαίο ή Ιόνιο; Σε πόλη ή χοριο ; Οικογενειακή διασκέδαση ή ηρεμία; Με τη σύντροφο σας  ή και με την παρέα σας; 
+        Πολλά τα διλήμματα, αλλά ακόμη περισσότερες οι επιλογές σας για τις καλοκαιρινές διακοπές.
+        Εμείς σας βγάζουμε από τη δύσκολη θέση και μέσα από οκτώ ερωτήσεις περιορίζουμε τις επιλογές σας στις πιο ταιριαστές σε αυτό που έχετε στο μυαλό σας ως «ιδανικές διακοπές». 
+</string>
+
+    <!-- questions -->
+    <string name="question1"> 1. Ποια από τις παρακάτω εικόνες είναι πιο κοντινή σε αυτό που σου έρχεται στο μυαλό όταν ακούς «καλοκαιρινές διακοπές»;  </string>
+    <string name="question2"> 2. Με ποιους θα πάτε διακοπές;   </string>
+    <string name="question3"> 3. Ποιο μεταφορικό μέσο προτιμάτε;  </string>
+    <string name="question4"> 4. Για μπάνιο θα προτιμήσετε:  </string>
+    <string name="question5"> 5. Πού προτιμάτε να διανυκτερεύσετε;  </string>
+    <string name="question6"> 6. Ποια gadgets δεν θα λείπουν από τις αποσκευές σας;  </string>
+    <string name="question7"> 7. Μετά τις διακοπές, η profile picture σας στο Facebook θα είναι:  </string>
+    <string name="question8"> 8. Πότε θα προτιμούσατε να πάτε διακοπές;  </string>
+
+    <!-- answers Neos -->
+    <string name="answer1aN"> 1.A. \n Beach bar, χορός ως το πρωί και φλερτ στην παραλία  </string>
+    <string name="answer1bN"> 1.Β. \n Δροσερό αεράκι, σε ένα γραφικό μέρος </string>
+    <string name="answer1cN"> 1.Γ. \n Ξημεροβράδιασμα σε μια απόμερη παραλία, όλη μέρα μόνο με το μαγιό (ή και χωρίς αυτό) </string>
+    <string name="answer1dN"> 1.Δ. \n Μακριά να ‘ναι, κι όπου να’ναι   </string>
+    <string name="answer2aN"> 2.Α. \n Με τον/την κολλητό/ή σας, που τυχαίνει να είναι όπως και εσείς, single  </string>
+    <string name="answer2bN"> 2.Β. \n Με τον/την κολλητό/ή σας, που τυχαίνει να εχει σύντροφο και τα παιδιά  </string>
+    <string name="answer2cN"> 2.Γ. \n Με μερικούς φίλους, και μερικούς φίλους των φίλων, ίσως και μερικούς φίλους των φίλων των φίλων  </string>
+    <string name="answer2dN"> 2.Δ. \n Με την στενή παρέα σας  </string>
+    <string name="answer3aN"> 3.Α. \n Speed ferry για πάντα!  </string>
+    <string name="answer3bN"> 3.Β. \n Σαν την ανεξαρτησία και την ασφάλεια του αυτοκινήτου σου δεν έχει  </string>
+    <string name="answer3cN"> 3.Γ. \n Και με ψαρόβαρκα πάτε, αρκεί να φύγετε από την πόλη  </string>
+    <string name="answer3dN"> 3.Δ. \n Αεροπλάνο ή τρένο  </string>
+    <string name="answer4aN"> 4.Α. \n Εννοείται οργανωμένη αμμουδιά με ωραία μουσική  </string>
+    <string name="answer4bN"> 4.Β. \n Ρηχή αμμουδιά – δεν ξέρεις καλό κολύμπι  </string>
+    <string name="answer4cN"> 4.Γ. \n Ελεύθερη παραλία, κατά προτίμηση ερημική και άγνωστη στα πλήθη  </string>
+    <string name="answer4dN"> 4.Δ. \n Ε, κι αν δεν κάνετε μπάνιο δεν θα σκάσετε κιόλας  </string>
+    <string name="answer5aN"> 5.Α. \n Σε ξενοδοχείο  </string>
+    <string name="answer5bN"> 5.Β. \n Σε διαμέρισμα με εξοπλισμένο Barbecue  </string>
+    <string name="answer5cN"> 5.Γ. \n Στην σκηνή σας σε κάποια παραλία </string>
+    <string name="answer5dN"> 5.Δ. \n Σε hostel ή στον καναπέ μέλους του AirBNB  </string>
+    <string name="answer6aN"> 6.Α. \n Smartphone, tablet, laptop, iPhone hub και φορητά ηχειάκια </string>
+    <string name="answer6bN"> 6.B. \n Το φιδάκι για τα κουνούπια  </string>
+    <string name="answer6cN"> 6.Γ. \n Το πολύ ένα κινητό, κι αυτό κλειστό  </string>
+    <string name="answer6dN"> 6.Δ. \n Smartphone με καλή κάμερα ή, ακόμη καλύτερα, φωτογραφική μηχανή SLR  </string>
+    <string name="answer7aN"> 7.Α. \n Εσείς με τέλειο μαύρισμα και το hip μαγιό σας και με την ρακέτα </string>
+    <string name="answer7bN"> 7.Β. \n Ένα ωραίο τοπίο από το πιο γραφικό χωριουδάκι που επισκεφθήκατε στο νησί </string>
+    <string name="answer7cN"> 7.Γ. \n Ένα κομμάτι αμμουδιάς ή μια λεπτομέρεια από την αγαπημένη παραλία σας χωρίς να φαίνεται το πρόσωπό σας  </string>
+    <string name="answer7dN"> 7.Δ. \n Το πανόραμα μιας πόλης ή ένα παγκοσμίου φήμης αξιοθέατο  </string>
+    <string name="answer8aN"> 8.Α. \n Τον Αύγουστο  </string>
+    <string name="answer8bN"> 8.Β. \n Τον Ιούλιο  </string>
+    <string name="answer8cN"> 8.Γ. \n Τον Ιούνιο ή τον Σεπτέμβριο  </string>
+    <string name="answer8dN"> 8.Δ. \n Δεν έχετε ιδιαίτερη προτίμηση, όποτε βρείτε φθηνότερο εισιτήριο  </string>
+
+    <!-- answers Pantremenou -->
+    <string name="answer1aP"> 1.A  \n Χορός, καλό φαγητό και χαλάρωση στην παραλία  </string>
+    <string name="answer1bP"> 1.Β. \n Δροσερό αεράκι κάτω από έναν πλάτανο αγκαλιά με την σύντροφο σας, σε ένα γραφικό χωριουδάκι  </string>
+    <string name="answer1cP"> 1.Γ. \n Ξημεροβράδιασμα σε μια απόμερη παραλία, όλη μέρα με το άλλο σας μισό  </string>
+    <string name="answer1dP"> 1.Δ. \n Μακριά να ‘ναι, κι όπου να’ναι  </string>
+    <string name="answer2aP"> 2.Α. \n Με τον/την σύντροφο σας ΜΟΝΟ  </string>
+    <string name="answer2bP"> 2.Β. \n Με τον/την σύντροφο και τα παιδιά σας  </string>
+    <string name="answer2cP"> 2.Γ. \n Με μερικούς φίλους  </string>
+    <string name="answer2dP"> 2.Δ. \n Με την στενή παρέα σας  </string>
+    <string name="answer3aP"> 3.Α. \n Speed ferry για πάντα!  </string>
+    <string name="answer3bP"> 3.Β. \n Σαν την ανεξαρτησία και την ασφάλεια του αυτοκινήτου σου δεν έχει  </string>
+    <string name="answer3cP"> 3.Γ. \n Και με ψαρόβαρκα πάτε, αρκεί να φύγετε από την πόλη  </string>
+    <string name="answer3dP"> 3.Δ. \n Αεροπλάνο ή τρένο  </string>
+    <string name="answer4aP"> 4.Α. \n Εννοείται οργανωμένη αμμουδιά με ξαπλώστρες, ομπρέλες και ωραία μουσική  </string>
+    <string name="answer4bP"> 4.Β. \n Ρηχή αμμουδιά – τα παιδιά δεν ξέρουν ακόμη καλό κολύμπι  </string>
+    <string name="answer4cP"> 4.Γ. \n Ελεύθερη παραλία, κατά προτίμηση ερημική </string>
+    <string name="answer4dP"> 4.Δ. \n Ε, κι αν δεν κάνετε μπάνιο δεν θα σκάσετε κιόλας  </string>
+    <string name="answer5aP"> 5.Α. \n Σε ξενοδοχείο  </string>
+    <string name="answer5bP"> 5.Β. \n Σε διαμέρισμα με εξοπλισμένο κουζινάκι  </string>
+    <string name="answer5cP"> 5.Γ. \n Στην σκηνή σας σε κάποια παραλία – το πολύ σε ενοικιαζόμενο δωμάτιο, αν βρείτε κάτι πολύ οικονομικό  </string>
+    <string name="answer5dP"> 5.Δ. \n Σε hostel ή στον καναπέ μέλους του AirBNB  </string>
+    <string name="answer6aP"> 6.Α. \n Smartphone, tablet, laptop, iPhone hub και φορητά ηχειάκια  </string>
+    <string name="answer6bP"> 6.B. \n Το φιδάκι για τα κουνούπια  </string>
+    <string name="answer6cP"> 6.Γ. \n Το πολύ ένα κινητό, κι αυτό κλειστό  </string>
+    <string name="answer6dP"> 6.Δ. \n Smartphone με καλή κάμερα ή, ακόμη καλύτερα, φωτογραφική μηχανή SLR  </string>
+    <string name="answer7aP"> 7.Α. \n Εσείς με τέλειο μαύρισμα σας να σχηματίζετε «καρδιά» με τα δάχτυλά σας μπροστά στη θάλασσα  </string>
+    <string name="answer7bP"> 7.Β. \n Ένα ωραίο τοπίο από το πιο γραφικό χωριουδάκι που επισκεφθήκατε στο νησί  </string>
+    <string name="answer7cP"> 7.Γ. \n Ένα κομμάτι αμμουδιάς ή μια λεπτομέρεια από την αγαπημένη παραλία σας χωρίς να φαίνεται το πρόσωπό σας  </string>
+    <string name="answer7dP"> 7.Δ. \n Το πανόραμα μιας πόλης ή ένα παγκοσμίου φήμης αξιοθέατο  </string>
+    <string name="answer8aP"> 8.Α. \n Τον Αύγουστο  </string>
+    <string name="answer8bP"> 8.Β. \n Τον Ιούλιο  </string>
+    <string name="answer8cP"> 8.Γ. \n Τον Ιούνιο ή τον Σεπτέμβριο  </string>
+    <string name="answer8dP"> 8.Δ. \n Δεν έχετε ιδιαίτερη προτίμηση, όποτε βρείτε φθηνότερο εισιτήριο  </string>
+
+    <!-- answers Gerou -->
+    <string name="answer1aG"> 1.A. \n Καλό φαγητό και χαλάρωση στην παραλία   </string>
+    <string name="answer1bG"> 1.Β. \n Δροσερό αεράκι κάτω από  ένα γραφικό χωριουδάκι  </string>
+    <string name="answer1cG"> 1.Γ. \n Ξημεροβράδιασμα σε μια απόμερη παραλία  </string>
+    <string name="answer1dG"> 1.Δ. \n Μακριά να ‘ναι, κι όπου να’ναι  </string>
+    <string name="answer2aG"> 2.Α. \n Με τον/την σύντροφο σας ΜΟΝΟ   </string>
+    <string name="answer2bG"> 2.Β. \n Με τον/την σύντροφο, παιδιά και εγγόνια   </string>
+    <string name="answer2cG"> 2.Γ. \n Με μερικούς φίλους  </string>
+    <string name="answer2dG"> 2.Δ. \n Με την παρέα σας  </string>
+    <string name="answer3aG"> 3.Α. \n Speed ferry για πάντα!  </string>
+    <string name="answer3bG"> 3.Β. \n Σαν την ανεξαρτησία και την ασφάλεια του αυτοκινήτου σου δεν έχει  </string>
+    <string name="answer3cG"> 3.Γ. \n Και με ψαρόβαρκα πάτε, αρκεί να φύγετε από την πόλη  </string>
+    <string name="answer3dG"> 3.Δ. \n Αεροπλάνο ή τρένο  </string>
+    <string name="answer4aG"> 4.Α. \n Εννοείται οργανωμένη αμμουδιά με ξαπλώστρες  </string>
+    <string name="answer4bG"> 4.Β. \n Ρηχή αμμουδιά – τα εγγόνια δεν ξέρουν ακόμη καλό κολύμπι  </string>
+    <string name="answer4cG"> 4.Γ. \n Ελεύθερη παραλία, κατά προτίμηση ερημική </string>
+    <string name="answer4dG"> 4.Δ. \n Ε, κι αν δεν κάνετε μπάνιο δεν θα σκάσετε κιόλας  </string>
+    <string name="answer5aG"> 5.Α. \n Σε ξενοδοχείο  </string>
+    <string name="answer5bG"> 5.Β. \n Σε διαμέρισμα με εξοπλισμένο κουζινάκι  </string>
+    <string name="answer5cG"> 5.Γ. \n Σε ενοικιαζόμενο δωμάτιο, αν βρείτε κάτι πολύ οικονομικό  </string>
+    <string name="answer5dG"> 5.Δ. \n Σε hostel </string>
+    <string name="answer6aG"> 6.Α. \n Smartphone κινητό, και φορητά ηχεία και ράδιο  </string>
+    <string name="answer6bG"> 6.B. \n Το φιδάκι για τα κουνούπια  </string>
+    <string name="answer6cG"> 6.Γ. \n Το πολύ ένα κινητό, κι αυτό κλειστό  </string>
+    <string name="answer6dG"> 6.Δ. \n Φωτογραφική μηχανή SLR  </string>
+    <string name="answer7aG"> 7.Α. \n Εσείς μπροστά στη θάλασσα  </string>
+    <string name="answer7bG"> 7.Β. \n Ένα ωραίο τοπίο από το πιο γραφικό χωριουδάκι που επισκεφθήκατε στο νησί/στον προορισμό των διακοπών σας  </string>
+    <string name="answer7cG"> 7.Γ. \n Ένα κομμάτι αμμουδιάς ή μια λεπτομέρεια από την αγαπημένη παραλία σας χωρίς να φαίνεται το πρόσωπό σας  </string>
+    <string name="answer7dG"> 7.Δ. \n Το πανόραμα μιας πόλης ή ένα παγκοσμίου φήμης αξιοθέατο  </string>
+    <string name="answer8aG"> 8.Α. \n Τον Αύγουστο  </string>
+    <string name="answer8bG"> 8.Β. \n Τον Ιούλιο  </string>
+    <string name="answer8cG"> 8.Γ. \n Τον Ιούνιο ή τον Σεπτέμβριο  </string>
+    <string name="answer8dG"> 8.Δ. \n Δεν έχετε ιδιαίτερη προτίμηση, όποτε βρείτε φθηνότερο εισιτήριο  </string>
+
+    <!-- Answer Title -->
+
+    <string name="answerATitle"><b> Σας ταιριάζουν τα party islands : </b></string>
+    <string name="answerBTitle"><b> Οι οικογενειακές διακοπές : </b></string>
+    <string name="answerCTitle"><b> Οι εναλλακτικοί προορισμοί : </b></string>
+    <string name="answerDTitle"><b> Το αντισυμβατικό ταξίδι : </b></string>
+
+    <!-- Answer Neos -->
+    <string name="answerAN">    Είστε έτοιμοι για ξεφάντωμα και ολονύχτια πάρτι στα πιο δημοφιλή νησιά. Για εσάς και τους φίλους σας, δεν νοούνται διακοπές χωρίς ηλιοθεραπεία σε σαιζλόνγκ, χορός σε beach bars, ακουστικά καρφωμένα στα αυτιά, tags και check ins στα πιο περιζήτητα μπαράκια του νησιού και ανέσεις διαμονής. 
+</string>
+    <string name="answerBN">    Είτε το θέλετε, είτε όχι, καλοκαίρι με την οικογένεια συνεπάγεται ορισμένα «standards», ήτοι ασφάλεια, ηρεμία 
+         Αν  απαντήσατε το «Δροσερό αεράκι, σε ένα γραφικό μέρος », η λύση είναι μία: Βουρ για το βουνό. Οι ορεινοί προορισμοί, η γραφικότητα ενός χωριού, η «παραδοσιακή» ησυχία και οι ήρεμοι ρυθμοί θα σας ευχαριστήσουν. Κατά τα άλλα, αν προτιμάτε θάλασσα, σίγουρα σας ταιριάζουν τα σχετικά μεγάλα νησιά, που διαθέτουν υπηρεσίες όπως νοσοκομείο, φαρμακεία, συχνά δρομολόγια κλπ, ώστε να έχετε το κεφάλι σας ήσυχο για τα πάντα. 
+</string>
+    <string name="answerCN">    Περιμένατε υπομονετικά όλο τον χειμώνα με τα ρούχα σας, για να τα πετάξετε το καλοκαίρι και να μείνετε επί μία τουλάχιστον εβδομάδα με το μαγιό σας, να έρθετε κοντά στη φύση, να επισκεφθείτε τα μικρά νησιά που νιώθετε πια σαν δεύτερο σπίτι σας, να βρείτε στην ήσυχη παραλία, όπου στήνετε την σκηνή σας, τα ίδια γνώριμα πρόσωπα. 
+        Σας αρέσει να μιλάτε με τους ντόπιους, να ανακαλύπτετε τις φυσικές ομορφιές του νησιού και να μην σας απασχολήσει ούτε στιγμή τι γίνεται πίσω στο σπίτι σας
+</string>
+    <string name="answerDN">    Έχετε μάλλον διαφορετική ιδέα από τον μέσο ταξιδιώτη για την έννοια των καλοκαιρινών διακοπών. Για εσάς, ακόμη και το καλοκαίρι είναι ευκαιρία να γνωρίσετε νέους πολιτισμούς και ξένες κουλτούρες, ακόμη κι αν αυτό σημαίνει πως θα στερηθείτε τις βουτιές σας στις ελληνικές θάλασσες – θα φροντίσετε να τις αναπληρώσετε με αποδράσεις τα επόμενα σαββατοκύριακα. Για το «κυρίως πιάτο» όμως, προτιμάτε να κλείσετε αεροπορικά εισιτήρια ή να γνωρίσετε την Ευρώπη… στις ράγες.
+</string>
+
+    <!-- Answer Pantremenou-Gerou -->
+    <string name="answerAP">    Είστε έτοιμοι για ολονύχτια πάρτι στα πιο δημοφιλή νησιά αφήνοντας πίσω την καθημερινότητα της οικογένειας. Για εσάς την οικογένεια σας  και τους φίλους σας, δεν νοούνται διακοπές χωρίς ηλιοθεραπεία, με ανέσεις διαμονής και χορό με καλη μουσική στα πιο περιζήτητα μέρη του νησιού.     
+</string>
+    <string name="answerBP">    Είτε το θέλετε, είτε όχι, καλοκαίρι με την οικογένεια συνεπάγεται ορισμένα «standards», ήτοι ασφάλεια, ηρεμία και σχετική απομάκρυνση από τα γούστα που είχατε πριν «νοικοκυρευτείτε». Από την μια η λύση είναι το βουνό. Οι ορεινοί προορισμοί, η γραφικότητα ενός χωριού, η «παραδοσιακή» ησυχία και οι ήρεμοι ρυθμοί θα σας ευχαριστήσουν. Κατά τα άλλα, αν προτιμάτε θάλασσα, σίγουρα σας ταιριάζουν τα σχετικά μεγάλα νησιά, που διαθέτουν υπηρεσίες όπως νοσοκομείο, φαρμακεία, συχνά δρομολόγια, ώστε να έχετε το κεφάλι σας ήσυχο για τα πάντα. 
+</string>
+    <string name="answerCP">    Περιμένατε υπομονετικά όλο τον χειμώνα με τα ρούχα σας, για να μείνετε επί μία τουλάχιστον εβδομάδα με το μαγιό σας, να έρθετε κοντά στη φύση, να επισκεφθείτε τα μικρά νησιά που νιώθετε πια σαν δεύτερο σπίτι σας, μιας και τα επισκέπτεστε εν είδει ιερού προσκυνήματος, και να βρείτε στην ήσυχη παραλία, όπου στήνετε την σκηνή σας, τα ίδια γνώριμα πρόσωπα. Σας αρέσει να μιλάτε με τους ντόπιους, να ανακαλύπτετε τις φυσικές ομορφιές του νησιού. 
+</string>
+    <string name="answerDP">    Έχετε μάλλον διαφορετική ιδέα από τον μέσο έλληνα ταξιδιώτη για την έννοια των καλοκαιρινών διακοπών. Για εσάς, ακόμη και το καλοκαίρι είναι ευκαιρία να γνωρίσετε νέους πολιτισμούς και ξένες κουλτούρες, ακόμη κι αν αυτό σημαίνει πως θα στερηθείτε τις βουτιές σας στις ελληνικές θάλασσες. προτιμάτε να κλείσετε αεροπορικά εισιτήρια ή να γνωρίσετε την Ευρώπη.    
+</string>
+
+    <!-- Answer  go yes -->
+    <string name="answerAgoM"><b>Πού να πάτε: </b>\n
+ <u>Μύκονος</u> και <u>Σαντορίνη</u> είναι σίγουρες επιλογές, ενώ μακριά από τις Κυκλάδες, δεν θα σας απογοητεύσει η <u>Ρόδος</u>. 
+</string>
+    <string name="answerBgoM"><b>Πού να πάτε: </b>\n
+        Η <u>Σκιάθος</u> και η <u>Κρήτη</u>, είναι πολύ καλές επιλογές νησιών για εσάς, ενώ η <u>Χαλκιδική</u> δεν είναι καθόλου κακή ιδέα αν προτιμάτε τις &lt;στεριανές&gt; θάλασσες. Αν πάλι προτιμάτε βουνό, το <u>Πήλιο</u> είναι η χρυσή τομή, που συνδυάζει τις βουνίσιες διακοπές με τις ωραίες παραλίες σε απόσταση βολής. Για πιο ορεινές διαθέσεις, προτείνουμε με κλειστά τα μάτια <u>Ζαγοροχώρια</u>. 
+</string>
+    <string name="answerCgoM"><b>Πού να πάτε: </b>\n
+        Στα <u>Κουφονήσια</u> &lt;έξτρα πόντοι για το free camping και τον γυμνισμό στο Κάτω Κουφονήσι&gt; ή στις &lt;Μικρές Κυκλάδες&gt; εν γένει &lt;<u>Ηρακλειά</u>, <u>Δονούσα</u>&gt;, στο <u>Αγκίστρι</u>, στον <u>Κάλαμο</u> &lt;το μικροσκοπικό νησάκι των Επτανήσων&gt;, στην <u>Γαύδο</u> &lt;υπάρχει μεγαλύτερη ηρεμία από το να γνωρίζεις ότι βρίσκεσαι στο νοτιότερο άκρο της Ευρώπης&gt;, στην <u>Ικαρία</u>, <u>Σέριφος</u>, <u>Φολέγανδρος</u>, <u>Καστελόριζο</u>, <u>Αστυπάλαια</u></string>
+    <string name="answerDgoM"><b>Πού να πάτε: </b>\n
+        Σας προτείνουμε να «μετριάσετε» την καλοκαιρινή χασούρα, επιλέγοντας προορισμούς του εξωτερικού που έχουν κοντά τους θάλασσα. Τι θα λέγατε για την <u>Βαρκελώνη</u>, για την <u>Μικρά Ασία</u> ή για τη <u>Μασσαλία</u>, <u>Μονακό</u></string>
+
+    <!-- Answer go no -->
+    <string name="answerAgoA"><b>Πού να πάτε: </b>\n    
+ <u>Ίος</u> και <u>Πάρος</u> είναι σίγουρες επιλογές, ενώ μακριά από τις Κυκλάδες, δεν θα σας απογοητεύσει η <u>Λευκάδα</u>.   </string>
+    <string name="answerBgoA"><b>Πού να πάτε: </b>\n  
+        Η <u>Σκόπελος</u>, η <u>Νάξος</u> και η <u>Κεφαλονιά</u> είναι πολύ καλές επιλογές νησιών για εσάς, ενώ η <u>Χαλκιδική</u> δεν είναι καθόλου κακή ιδέα αν προτιμάτε τις «στεριανές» θάλασσες. Για πιο «ορεινές διαθέσεις», προτείνουμε με κλειστά τα μάτια <u>Τζουμέρκα</u> και <u>Όλυμπο</u>. 
+</string>
+    <string name="answerCgoA"><b>Πού να πάτε: </b>\n 
+        Στα <u>Κουφονήσια</u> &lt;έξτρα πόντοι για το free camping και τον γυμνισμό στο Κάτω Κουφονήσι&gt; ή στις &lt;Μικρές Κυκλάδες&gt; εν γένει &lt;<u>Δονούσα</u>, <u>Σχοινούσα</u>&gt;, στην <u>Ανάφη</u>, &lt;το μικροσκοπικό νησάκι των Επτανήσων&gt;, στην <u>Γαύδο</u> &lt;υπάρχει μεγαλύτερη ηρεμία από το να γνωρίζεις ότι βρίσκεσαι στο νοτιότερο άκρο της Ευρώπης&gt;, στη <u>Σαμοθράκη</u>,
+</string>
+    <string name="answerDgoA"><b>Πού να πάτε: </b>\n  
+        Σας προτείνουμε να «μετριάσετε» την καλοκαιρινή χασούρα, επιλέγοντας προορισμούς του εξωτερικού που έχουν κοντά τους θάλασσα. Τι θα λέγατε για την <u>Λισαβόνα</u>, για την <u>Μικρά Ασία</u> ή για τις αφρικανικές ακτές της <u>Μεσογείου</u>.
+</string>
+    <string name="title_activity_last_test">Τελευταία Δοκιμής</string>
+
+    
+    
+    <string name="last_test">Tελευταίo Test </string>
+    <string name="changed">Τα δεδομένα έχουν αλλάξει ΠΗΓΑΙΝΕΤΕ ΣΤΟ ΤΕΣΤ</string>
+    <string name="not">Δεν βρέθηκε Tελευταίo Test</string>
+    <string name="nodelete">Τα δεδομένα δεν Διαγράφονται</string>
+    <string name="delet">Τα δεδομένα εχουν Διαγραφή</string>
+    <string name="Log_Out">Αποσύνδεση</string>
+    <string name="oklogin"> Είσοδος επιτυχίς &#8230; \n\n Καλώς ήλθατε </string>
+    <string name="notlogin"> Αποτυχία σύνδεσης </string>
+    <string name="Data_not_Inserted">Τα Δεδομένα δεν έχουν εισαχθεί</string>
+    <string name="Dear">Αγαπητέ </string>
+    <string name="DatanotUpdate">Τα δεδομένα ΔΕΝ Ενημερώθηκαν</string>
+    <string name="DataisUpDate">Τα δεδομένα Ενημερώθηκαν</string>
+    <string name="Delete_user">Διαγραφή χρήστη!!</string>
+    <string name="Do_you_want_to_Delete">Θέλετε να Διαγράφετε τη Σελίδα του Χρήστη ;</string>
+    <string name="Yes">ΝΑΙ</string>
+ 	<string name="No">ΟΧΙ</string>       
+ 	<string name="Alert">Ειδοποίηση !!!</string>
+</resources>

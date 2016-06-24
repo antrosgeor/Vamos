@@ -1,0 +1,200 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green" >
+	
+	<!--ta pio pano einai gia na dimiourgithi to scrollview  -->
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+    	tools:context="com.example.vamos.Update_user" >
+    
+        <!-- layout_below = me afto dilonoume se pio id tha einai apo kato -->
+		<!--  -->
+		
+		<TextView
+		    android:id="@+id/text"
+		    android:layout_width="@dimen/textview_width"
+		    android:layout_height="@dimen/textview_height"
+		    android:layout_above="@+id/Age"
+		    android:layout_alignTop="@+id/Edit_Text"
+		    android:layout_marginEnd="40dp"
+		    android:layout_marginRight="20dp"
+		    android:text="@string/welcome"
+		    android:textSize="@dimen/font_size" />
+
+		<TextView
+		    android:id="@+id/Edit_Text"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignRight="@+id/Edit_Age"
+		    android:layout_alignEnd="@+id/Edit_Age"
+		    android:layout_marginBottom="40dp"
+		    android:layout_toEndOf="@+id/text"
+		    android:layout_toRightOf="@+id/text"
+		    android:hint="@string/Edit_Text"
+		    android:text="@string/welcome_Update" />
+		
+        <TextView
+            android:id="@+id/Age"
+            android:layout_width="@dimen/textview_width"
+            android:layout_height="@dimen/textview_height"
+            android:layout_below="@+id/Edit_Text"
+            android:text="@string/Age"
+            android:textColor="@color/blacks"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/font_size" />
+        
+          <EditText
+            android:id="@+id/Edit_Age"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Age"
+            android:maxLength="2"
+        	android:layout_marginTop="10dp"
+        	android:ems="10"
+       	 	android:singleLine="true"
+        	android:drawableLeft="@drawable/age"
+        	android:drawableStart="@drawable/age"
+        	android:background="@drawable/edittext_contact"
+            android:inputType="number"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/Enter_your_Age" />
+
+        <TextView
+            android:id="@+id/Family"
+            android:layout_width="@dimen/textview_width"
+            android:layout_height="@dimen/textview_height"
+            android:layout_alignBottom="@+id/Edit_Family"
+            android:layout_marginBottom="50dp"
+            android:text="@string/Family"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/blacks"
+            android:textSize="@dimen/font_size" />
+
+
+        
+           <RadioGroup
+        android:id="@+id/Edit_Family"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Edit_Age"
+        android:layout_toEndOf="@+id/Family"
+        android:layout_toRightOf="@+id/Family"
+        
+        	android:background="@drawable/edittext_contact"
+         >
+
+        <RadioButton
+            android:id="@+id/Edit_Family0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/familyYes" />
+
+        <RadioButton
+            android:id="@+id/Edit_Family1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/familyNo" />
+    </RadioGroup>
+        
+
+        <TextView
+            android:id="@+id/job"
+            android:layout_width="@dimen/textview_width"
+            android:layout_height="@dimen/textview_height"
+            android:layout_below="@+id/Edit_Family"
+            android:text="@string/job"
+            android:textColor="@color/blacks"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/font_size" />
+
+        <EditText
+            android:id="@+id/Edit_job"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/job"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/job"
+        	android:drawableStart="@drawable/job"
+        	android:background="@drawable/edittext_contact"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/Enter_your_Job"
+             />
+
+        <TextView
+            android:id="@+id/Money"
+            android:layout_width="@dimen/textview_width"
+            android:layout_height="@dimen/textview_height"
+            android:layout_below="@+id/Edit_job"
+            android:text="@string/Money"
+            android:textColor="@color/blacks"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/font_size" />
+
+        <EditText
+            android:id="@+id/Edit_Money"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Money"
+            android:inputType="number"
+            android:maxLength="4"
+        	android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/euro"
+        	android:drawableStart="@drawable/euro"
+        	android:background="@drawable/edittext_contact"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/Enter_your_Money"
+             />
+
+    <Button
+            android:id="@+id/Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Edit_Money"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_back"    
+        	android:textColor="#FDFDFD" 
+            android:text="@string/Back" />
+	
+	<Button
+            android:id="@+id/Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Edit_Money"
+            android:layout_alignBottom="@+id/Back"
+            android:layout_alignTop="@+id/Back"
+            android:layout_toEndOf="@+id/Back"
+            android:layout_toRightOf="@+id/Back"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_reset"    
+        	android:textColor="#FDFDFD"
+            android:text="@string/Reset" />
+        
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Reset"
+            android:layout_alignTop="@+id/Reset"
+            android:layout_below="@+id/Edit_Money"
+            android:layout_toEndOf="@+id/Reset"
+            android:layout_toRightOf="@+id/Reset"
+            android:background="@drawable/button_send"
+            android:textColor="#FDFDFD" 
+            android:text="@string/Update" />
+
+    </RelativeLayout>
+
+</ScrollView>

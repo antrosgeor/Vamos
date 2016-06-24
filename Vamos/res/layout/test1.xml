@@ -1,0 +1,185 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.vamos.Test1"
+        android:background="@color/green" >
+	
+        <TextView
+            android:id="@+id/Username"
+            android:layout_width="@dimen/textview_width"
+            android:layout_height="@dimen/textview_height"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/Username"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size" />
+        
+        <TextView
+            android:id="@+id/Question"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/Username"
+            android:layout_toRightOf="@+id/Username"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:background="@color/transparent"
+            android:hint="@string/Edit_Text" />
+
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Question"
+            android:layout_alignStart="@+id/Question"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_send"    
+        	android:textColor="#FDFDFD" 
+            android:text="@string/Next" />
+
+        <Button
+            android:id="@+id/Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/Username"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/Username"
+            android:layout_alignTop="@+id/Next"
+            android:background="@drawable/button_back"    
+        	android:textColor="#FDFDFD" 
+            android:text="@string/Back" />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Next"
+            android:layout_alignLeft="@+id/Cancel"
+            android:layout_alignRight="@+id/Question"
+            android:layout_alignStart="@+id/Cancel"
+            android:layout_alignEnd="@+id/Question"
+            android:layout_below="@+id/Question" >
+
+            <RelativeLayout
+                android:id="@+id/relatAB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextA"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/CheckBoxA"
+                    android:background="@color/transparent"
+                    android:layout_toRightOf="@+id/CheckBoxA" />
+                
+               <TextView
+                   android:id="@+id/TextB"
+                   android:layout_width="300dp"
+                   android:layout_height="100dp"
+                   android:layout_alignParentEnd="true"
+                   android:layout_alignParentRight="true"
+                   android:layout_below="@+id/TextA"
+                   android:layout_marginTop="10dp"
+                   android:layout_toEndOf="@+id/CheckBoxB"
+                   android:background="@color/transparent"
+                   android:layout_toRightOf="@+id/CheckBoxA" />
+              
+               <TextView
+                   android:id="@+id/TextC"
+                   android:layout_width="300dp"
+                   android:layout_height="100dp"
+                   android:layout_alignParentEnd="true"
+                   android:layout_alignParentRight="true"
+                   android:layout_below="@+id/TextB"
+                   android:background="@color/transparent"
+                   android:layout_marginTop="10dp"
+                   android:layout_toEndOf="@+id/CheckBoxC"
+                   android:layout_toRightOf="@+id/CheckBoxD" />
+               
+                <TextView
+                    android:id="@+id/TextD"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/CheckBoxD"
+                    android:layout_toEndOf="@+id/CheckBoxD"
+                    android:layout_below="@+id/TextC" 
+                    android:background="@color/transparent"
+                    android:layout_marginTop="10dp"/>
+               
+                <CheckBox
+                    android:id="@+id/CheckBoxA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:scaleX="1.20"
+    				android:scaleY="1.70"
+                    android:text="@string/A" />
+                <CheckBox
+                    android:id="@+id/CheckBoxD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TextC"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+               		android:scaleX="1.20"
+    				android:scaleY="1.70"
+                    android:text="@string/D" />
+
+                <CheckBox
+                    android:id="@+id/CheckBoxB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/TextB"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:scaleX="1.20"
+                    android:scaleY="1.70"
+                    android:text="@string/B"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/CheckBoxC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/TextC"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:scaleX="1.20"
+                    android:scaleY="1.70"
+                    android:text="@string/C"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+                 
+        </ScrollView>
+        
+    </RelativeLayout>
